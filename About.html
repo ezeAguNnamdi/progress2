@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>AguProcurement</title>
+ <link rel="icon" type="image/x-icon" href="images/A (1).jpg">
+<link rel="stylesheet" href="./asset/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/A (1).jpg" alt="logo.png"></a>
+      <div class="nav-links" id="Navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./partners.html">Our Partners</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+  <h1>about us</h1>
+  </section>
+
+  <section class="About-us">
+    <div class="row">
+      <div class="abt-col">
+        <h2>genuine and reliable deals</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut eveniet repellat doloribus et officiis quos, iusto qui cumque cum enim? Maiores assumenda veritatis inventore aliquam nemo, quasi laboriosam doloremque? Dignissimos praesentium, similique voluptas consequuntur voluptate facilis in ipsa quibusdam corrupti sequi! Reiciendis sed qui accusamus consectetur expedita ratione quaerat alias!</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate aperiam, ipsum, facere esse suscipit consequuntur adipisci, in harum est mollitia nisi sed nulla reiciendis id et doloremque aspernatur ullam rem explicabo perspiciatis corrupti repellendus.</p>
+        <a href="#"  class="herro-btn red-btn" >REQUEST NOW</a>
+      </div>
+      <div class="abt-col">
+        <img src="images/auto1.jpg" alt="">
+      </div>
+    </div>
+  </section>
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In odio, non corporis praesentium vel aliquid, reprehenderit repellat recusandae incidunt <br> molestias facere dolore cum nesciunt, quod explicabo maiores?</p>
+  <div class="icons">
+    <a href="#"><i class="fa fa-whatsapp"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+    <p>Copyright <i class="fa fa-heart-o"></i> &copy AguProcurement</p>
+</section>
+
+
+</section>
+   
+<script>
+  var Navlinks = document.getElementById("Navlinks");
+
+  function showMenu() {
+    Navlinks.style.right = "0";/*makes the menu clickAble and appear at the inputed position*/
+  }
+
+  function hideMenu() {
+    Navlinks.style.right = "-200px";/*to hide the X icon menu on responsive view*/
+  }
+
+</script>
+</body>
+</html>

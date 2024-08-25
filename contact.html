@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>AguProcurement</title>
+ <link rel="icon" type="image/x-icon" href="images/A (1).jpg">
+<link rel="stylesheet" href="./asset/font-awesome-4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/A (1).jpg" alt="logo.png"></a>
+      <div class="nav-links" id="Navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./partners.html">Our Partners</a></li>
+                <li><a href="./contact.html">Contac Us</a></li>
+            </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+      <h1>Contact Us</h1>
+  </section>
+
+  <section class="About">
+    <h1><a href="#">OUR SERVICES</a></h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, provident ex debitis cum quis et. Rerum recusandae molestiae iure. Possimus obcaecati sint fuga, et facere eum deserunt dicta doloremque, dolor in accusamus minus nulla. Ratione.</p>
+  
+    <div class="row">
+      <div class="About-column">
+        <h3> <a href="#">We Inspect</a></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, necessitatibus. Alias ipsum fugiat, excepturi, vel iste facilis iusto debitis nobis, quod hic in voluptate!</p>
+      </div>
+  
+      <div class="About-column">
+        <h3><a href="#"> We Buy</a></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, necessitatibus. Alias ipsum fugiat, excepturi, vel iste facilis iusto debitis nobis, quod hic in voluptate!</p>
+      </div>
+  
+      <div class="About-column">
+        <h3><a href="#">We Sell</a></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, necessitatibus. Alias ipsum fugiat, excepturi, vel iste facilis iusto debitis nobis, quod hic in voluptate!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+
+    <div class="row">
+      <div class="contact-left">
+        <img src="images/AGU PROCUREMENTS.png">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic a quis dolorem eveniet iure voluptatibus dignissimos cum maiores, magnam architecto quidem nam error in blanditiis omnis ab excepturi commodi maxime.</p>
+        <br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis quasi ipsum modi asperiores voluptatem illum tempore, illo impedit dolorum molestias magnam iste cupiditate velit. Blanditiis nesciunt libero nobis veniam at?</p>
+        <br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis quasi ipsum modi asperiores voluptatem illum tempore, illo impedit dolorum molestias magnam iste cupiditate velit. Blanditiis nesciunt libero nobis veniam at?</p>
+        <br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis quasi ipsum modi asperiores voluptatem illum tempore, illo impedit dolorum molestias magnam iste cupiditate velit. Blanditiis nesciunt libero nobis veniam at?</p>
+
+        <div class="comment-box">
+            <h3>Leave a Request</h3>
+
+            <form action="#" class="comment-form">
+              <input type="text" placeholder="Name">
+              <input type="number" placeholder="Mobile Number">
+              <input type="email" placeholder="Email">
+              <textarea placeholder="Your Request" cols="50" rows="10"></textarea>
+              <button type="submit" class="herro-btn red-btn">Submit Request</button>
+            </form>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <h3> Our Categories</h3>
+        <div>
+          <span>Automobiles</span>
+          <span>Lorem</span>
+        </div>
+        <div>
+          <span>Smart Gadgets</span>
+          <span>Lorem</span>
+        </div>
+        <div>
+          <span>Home Appliances</span>
+          <span>Lorem</span>
+        </div>
+        <div>
+          <span>Heavy Equipments</span>
+          <span>Lorem</span>
+        </div>
+      </div>
+  </section>
+
+
+
+  <section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In odio, non corporis praesentium vel aliquid, reprehenderit repellat recusandae incidunt <br> molestias facere dolore cum nesciunt, quod explicabo maiores?</p>
+  <div class="icons">
+    <a href="#"><i class="fa fa-whatsapp"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+    <p>Copyright <i class="fa fa-heart-o"></i> &copy AguProcurement</p>
+</section>
+
+
+</section>
+
+<script>
+  var Navlinks = document.getElementById("Navlinks");
+
+  function showMenu() {
+    Navlinks.style.right = "0";/*makes the menu clickAble and appear at the inputed position*/
+  }
+
+  function hideMenu() {
+    Navlinks.style.right = "-200px";/*to hide the X icon menu on responsive view*/
+  }
+
+</script>
+</body>
+</html>
